@@ -8,7 +8,7 @@
     "build": "tsc -b && vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "start": "pm2 start ecosystem.config.js"
+    "start": "pm2 start ecosystem.config.json"
   },
   "dependencies": {
     "koa": "^3.0.1",
