@@ -1,10 +1,18 @@
-import { useState } from 'react'
+import { useEffect, useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
+import data2 from './data2.json'
+import data1 from './data1.json'
+
 
 function App() {
   const [count, setCount] = useState(0)
+  const [d, setData] = useState(data1)
+  useEffect(() => {
+    setData(data2)
+  }, [d])
+
 
   return (
     <>
