@@ -1,4 +1,4 @@
-module.exports = {
+export default {
   apps: [
     {
       name: 'demo-app',            // 进程名
